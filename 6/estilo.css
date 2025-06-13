@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(247, 219, 255);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: rgb(124, 30, 108);
+}
+
+input{
+    width: 350px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgb(91, 33, 114);
+    border-radius: 5px;
+}
+
+#btnagregar{
+  margin: 30px;
+  background-color: rgb(255, 186, 245);
+  border-color: rgb(226, 43, 144);
+  border-radius: 20px;
+  border: dotted 1px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#listaTareas{
+    width: 700px;
+    margin: auto;
+    overflow: auto;
+}
+
+.tarea {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    }
+
+.icono {
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    
+.pendiente {
+    color: rgb(255, 125, 19);
+    }
+
+.realizada {
+    color: rgb(32, 180, 32);
+    }
+    
+.eliminar {
+    color: red;
+    }
